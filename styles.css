@@ -1,0 +1,37 @@
+/* Body selector body -> all elements in body inheirt his styles */
+body{
+    /* color the background of those elements blue */
+    background-color: blue;
+}
+/* div selects all divs -> styles them pink */
+div {
+    background-color: pink;
+}
+
+.nav-bar {
+    background-color: darkblue;
+    color: white;
+}
+
+/* style all elements with dog class font color red 
+. means class
+dog is the dog class
+*/
+.dog{
+    color: red;
+}
+
+.cat{
+    color: purple;
+}
+
+/* 
+    Highlight this animal 
+    # means id
+    id you are using
+*/
+#highlighted-animal {
+    background-color: yellow;
+    border: 1px solid red;
+    border-radius: 5px;
+}

@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption</title>
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 
 <body>
     <!-- Navigation section -->
-    <div>
+    <div class="nav-bar">
         <ul>
             <li>
                 <a href="./index.html">Home</a>
@@ -32,16 +33,20 @@
         <!-- Unordered list -->
         <ul>
             <li>Dogs</li>
-            <li>
+            <!-- Classes for items of same logical group -->
+            <!-- id for specific item not multiple same id -->
+            <li class="dog" id="highlighted-animal">
                 <b>Golden Retriever</b>
                 <img alt="A picture of a golden retriever" src="./images/dog-1.jpg"/>
             </li>
-            <li>Bulldog
+            <li class="dog" >
+                Bulldog
                 <img alt="A picture of a golden retriever" src="http://place-puppy.com/200x200"/>
             </li>
             <br>
             <li>Cats</li>
-            <li>Orange Tabby
+            <li class="cat"> 
+                Orange Tabby
                 <img alt="picture of a cat" src="http://placekitten.com/200/200"/>
             </li>
         </ul>
